@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="./css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div class="container">
+      <div class="form-group">
+        <label for="gender">Gender</label>
+        <select id="gender">
+          <option value="male">Male</option>
+          <option value="female">Female</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="units">Units</label>
+        <select id="units">
+          <option value="lbs">lbs</option>
+          <option value="kgs">kgs</option>
+        </select>
+      </div>
+      <div class="form-group">
+        <label for="weight">Bodyweight</label>
+        <input type="number" id="weight"></input>
+      </div>
+      <div class="form-group">
+        <label for="lift-total">Total Lifts (1RM for squat, bench, deadlift)</label>
+        <input type="number" id="lift-total"></input>
+      </div>
+      <div class="form-group">
+        <div id="coefficient"></div>
+      </div>
+      <div class="form-group">
+        <div id="rating"></div>
+      </div>
+    </div>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+  <script src="./scripts/build.js"></script>
+  </body>
+</html>
